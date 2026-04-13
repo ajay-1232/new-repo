@@ -4,6 +4,6 @@ on: push
 
 jobs:
   build:
-    runs-on: ubantu-latest
+    runs-on: ubantu-latest-22.04
     steps:
       - run: echo "hellow"
